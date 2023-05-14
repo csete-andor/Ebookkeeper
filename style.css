@@ -1,0 +1,97 @@
+body{
+    margin: none;
+    background-color: #0F0F0F;
+    font-family: Arial;
+    height: 2000px;
+}
+header{
+    height: 5em;
+    width: 100%;
+    font-size: 30px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10em;
+    margin-bottom: 20em;
+    letter-spacing: 2px;
+
+    position: relative;
+    left: -6.666em;
+}
+.purple{
+    color: #624DCE;
+}
+.headerContent{
+    border-bottom: solid white 1.5px;
+    width: 45%;
+    margin: auto;
+    margin-top: 2.5em;
+}
+.services{
+    width: 80%;
+    margin: auto;
+    overflow: visible;
+}
+.service{
+    background-color: #222222;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    border-radius: 10%;
+    margin: 3em;
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    background: #e85757;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px;
+    width: 120px;
+    color: #fff;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .card {
+    background: url("https://uploads.codesandbox.io/uploads/user/dad4f6c8-47d8-4aa2-bdbe-07742762e99b/TRJU-card-bg.jpg") no-repeat;
+    background-size: cover;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+    position: relative;
+    color: #fff;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  
+  .card::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Slight parallax effect on hover */
+  .card:hover .content {
+    transform: translateZ(40px);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
