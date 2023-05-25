@@ -14,7 +14,7 @@
         
     </header>
     <main>
-      <div src="C:\Users\User\Downloads\blobanimation (1).svg" width="200em" id="blob"></div>
+      <img src="C:\Users\User\Downloads\blobanimation (1).svg" width="200em" id="blob"></img>
         <div class="services">
             <div class="service"><span>Könyvelés</span><br>
               <img src="https://cdn-icons-png.flaticon.com/512/8206/8206111.png" alt="Könyvelés" style="filter:invert(75%); padding-top: 1em;" width="100em">
@@ -37,17 +37,28 @@
               <span class="moreinfo">We would love to hear from you! Whether you have questions, need assistance, our team is ready to help.</span>
             </div>
         </div>
-        <script>
-              var blob = document.getElementById('blob');
-
-// Update blob position on mousemove
-document.addEventListener('mousemove', function(e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  blob.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
-});
-        </script>
     </main>
+    <hr>
+    <footer>
+      <span>Készült 2023-ban</span><br>
+      <span>Minden jog fenntartva!</span><br>
+      <span><a href="#ebookkeeper">eBookkeeper</a></span><br>
+      <span>Megrendelő: 4U-Audit kft</span><br>
+      <span>Kivitelező: <a href="https://cseteandor.hu">Csete Andor</a></span><br><br>
+      <span><a href="#bookkeeping">Könyvelés</a></span><br>
+      <span><a href="#about">Rólunk</a></span><br>
+      <span><a href="#services">Szolgáltatásaink</a></span><br>
+      <span><a href="#contact">Kapcsolat</a></span><br>
+      <span><a href="#login">Belépés</a></span><br>
+    </footer>
+    <script>
+      var blob = document.getElementById('blob');
+      document.addEventListener('mousemove', function(e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        blob.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+      });
+    </script>
+
 </body>
 </html>
-<!--C:\Users\User\Downloads\blobanimation.svg-->
