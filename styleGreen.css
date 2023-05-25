@@ -1,6 +1,3 @@
-::-webkit-scrollbar{
-  display: none;
-}
 body{
     margin: 0;
     background-color: #0F0F0F;
@@ -11,9 +8,6 @@ header{
     height: 5em;
     width: 100%;
     font-size: 30px;
-    position: fixed;
-    top: 0px;
-    background-color: #0f0f0fad;
 }
 header a{
     color: white;
@@ -37,44 +31,25 @@ header a{
 .services{
     width: 60%;
     margin: auto;
-    margin-top: 22em;
+    margin-top: 12em;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
 }
 .service{
     background-color: #222222;
-    width: 8em;
+    width: 10em;
     height: 10em;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10%;
     color: white;
     font-size: 25px;
     padding-top: 1em;
     transition: all 300ms;
 }
 .service:hover{
-  height: 13em;
+  height: 12em;
   transform: translateY(-4em);
+  filter: invert(100%);
   background-color: #624DCE;
-}
-.moreinfo{
-  display: none;
-  font-size: 15px;
-  padding-top: 3em;
-  width: 75%;
-  margin: auto;
-}
-.service:hover .moreinfo{
-  display: block;
-}
-#blob {
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  filter: blur(60px);
-  z-index: -1;
-  background: url(C:\Users\User\Downloads\blobanimation%20(1).svg);
-  background-position: center center;
 }
