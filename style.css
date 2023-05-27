@@ -5,7 +5,7 @@ body{
     margin: 0;
     background-color: #0F0F0F;
     font-family: Arial;
-    background-image: url(https://www.hdwallpapers.in/download/tree_alone_dark_evening_4k_hd-HD.jpg);
+    background-image: url("C:/Users/User/Documents/GitHub/Ebookkeeper/images/wallpaper.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -90,10 +90,15 @@ footer{
   margin: auto;
   margin-top: 5em;
   margin-bottom: 3em;
+  border: none;
+  text-align: center;
 }
 footer a{
   text-decoration: none;
   color: #858585;
+}
+footer a:hover{
+  text-decoration: underline;
 }
 hr{
   width: 50%;
