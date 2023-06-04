@@ -5,7 +5,7 @@ body{
     margin: 0;
     background-color: #0F0F0F;
     font-family: Arial;
-    background-image: url("C:/Users/User/Documents/GitHub/Ebookkeeper/images/wallpaper.jpg");
+    background-image: url("https://raw.githubusercontent.com/csete-andor/Ebookkeeper/main/images/wallpaper.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -111,10 +111,16 @@ hr{
 .container{
   width: 50%;
   margin: auto;
-  margin-top: 10em;
+  margin-top: 20em;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 150%;
   color: white;
-
+  background-color: #22222290;
+  padding: 20px;
+  border-radius: 20px;
+}
+#title{
+  font-size: 24px;
+  color: #a6ff00;
 }
